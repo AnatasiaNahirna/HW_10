@@ -1,0 +1,30 @@
+    1  git clone git@github.com:AnatasiaNahirna/HW_10.git
+    2  cd HW_10
+    3  touch text_ignore.txt
+    4  vim gitignore
+    5  git status
+    6  git add
+    7  git add gitignore
+    8  git commit
+    9  git commit -m start
+   10  touch main_test.txt
+   11  git add main_test.txt
+   12  git commit
+   13  git commit -m start
+   14  git branch develop
+   15  git checkout develop
+   16  touch develop_test.txt
+   17  git add develop_test.txt
+   18  git commit -m start
+   19  vim develop_test.txt file
+   20  git status
+   21  git add develop_test.txt file
+   22  git commit -m start
+   23  git add develop_test.txt
+   24  git commit -m start
+   25  git checkout main
+   26  git merge develop
+   27  git log
+   28  git add gitignore
+   29  git push
+   30  history > command_list.csv
